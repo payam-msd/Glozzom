@@ -1,0 +1,210 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important; }
+
+#home-heading h2 {
+  text-transform: uppercase; }
+
+#video-play a {
+  color: #fff; }
+
+.text-header,
+#page-header .col {
+  padding-top: 80px; }
+
+.about-img {
+  margin-top: -50px;
+  margin-left: 120px; }
+
+@font-face {
+  font-family: Freight sans;
+  src: url("../font/Freight Sans Bold.otf"); }
+.carousel-item {
+  height: 100vh; }
+
+.carousel-img-1 {
+  background: url(../img/claudio-schwarz-purzlbaum-1255976-unsplash.jpg);
+  -webkit-background-size: cover;
+          background-size: cover; }
+
+.carousel-img-2 {
+  background: url(../img/daniel-olah-1118487-unsplash.jpg);
+  -webkit-background-size: cover;
+          background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat; }
+
+.carousel-img-3 {
+  background: url(../img/ales-nesetril-1311637-unsplash.jpg);
+  -webkit-background-size: cover;
+          background-size: cover; }
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url(../img/media.jpg);
+  background-position: 0 -300px;
+  color: #fff;
+  text-align: center; }
+
+#FAQ .card-body,
+#FAQ .card-header {
+  background: #444; }
+
+#FAQ button {
+  color: #fff;
+  text-decoration: none; }
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url(../img/lights.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #fff; }
+
+#page-header {
+  position: relative;
+  background-image: url(https://source.unsplash.com/random/1920x1280);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -600px;
+  min-height: 300px;
+  width: 100%;
+  color: #fff; }
+
+#home-heading .dark-overlay,
+#video-play .dark-overlay,
+#page-header .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); }
+
+#main-footer {
+  background: #000;
+  color: #fff; }
+
+.navbar {
+  width: 100%;
+  z-index: 1;
+  font-family: Freight sans;
+  position: absolute;
+  font-size: 18px;
+  padding-bottom: 10px;
+  background: none;
+  position: absolute; }
+
+.main-nav {
+  list-style-type: none;
+  display: none; }
+
+.nav-links,
+.logo {
+  text-decoration: none !important;
+  color: rgba(255, 255, 255, 0.7); }
+
+.main-nav li {
+  text-align: center;
+  margin: 15px auto; }
+
+.logo {
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 20px; }
+
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px; }
+
+.active {
+  display: block; }
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+  .main-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 30px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+
+  .navbar-links:hover {
+    border: none; }
+
+  .navbar-links::after {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 5px;
+    left: 50%;
+    bottom: 0;
+    border-bottom: 1px solid #81defd;
+    -webkit-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.2s; }
+
+  .navbar-links:hover::after {
+    width: 100%;
+    left: 0; }
+
+  .main-nav li {
+    margin: 0; }
+
+  .nav-links {
+    margin-left: 40px;
+    color: #40c3f7;
+    border: none;
+    position: relative; }
+
+  .logo {
+    margin-left: 80px;
+    font-size: 40px;
+    margin-top: 0;
+    color: #2cb0ed; }
+
+  .navbar-toggle {
+    display: none; }
+
+  .logo:hover,
+  .nav-links:hover {
+    color: white; } }
+
+/*# sourceMappingURL=style.css.map */

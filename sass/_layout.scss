@@ -1,0 +1,151 @@
+//TODOs Header
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url(../img/lights.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+#page-header {
+  position: relative;
+  background-image: url(https://source.unsplash.com/random/1920x1280);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -600px;
+  min-height: 300px;
+  width: 100%;
+  color: #fff;
+}
+
+//TODOs Overlays
+#home-heading .dark-overlay,
+#video-play .dark-overlay,
+#page-header .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+//TODOs Footer
+#main-footer {
+  background: #000;
+  color: #fff;
+}
+
+//TODOs Navigation
+.navbar {
+  width: 100%;
+  z-index: 1;
+  font-family: Freight sans;
+  position: absolute;
+  font-size: 18px;
+  padding-bottom: 10px;
+  background: none;
+  position: absolute;
+}
+
+.main-nav {
+  list-style-type: none;
+  display: none;
+}
+
+.nav-links,
+.logo {
+  text-decoration: none !important;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+}
+
+.active {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
+
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  //   ---------------------------------------
+
+  .navbar-links:hover {
+    border: none;
+  }
+  .navbar-links::after {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 5px;
+    left: 50%;
+    bottom: 0;
+    border-bottom: 1px solid $color-secondary-3;
+    transition: all ease-in-out 0.2s;
+  }
+  .navbar-links:hover::after {
+    width: 100%;
+    left: 0;
+  }
+  //   ---------------------------------------
+  .main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+    color: $color-secondary-1;
+    border: none;
+    position: relative;
+  }
+
+  .logo {
+    margin-left: 80px;
+    font-size: 40px;
+    margin-top: 0;
+    color: $color-secondary--1;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .logo:hover,
+  .nav-links:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+//TODOs All Other CSS

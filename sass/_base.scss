@@ -1,0 +1,71 @@
+//TODOs Base Initial Files
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
+body {
+}
+
+//TODOs Variables
+//* Main COLORS
+//*Yellow
+$color-primary--5: hsl(15, 86%, 30%);
+$color-primary--4: hsl(22, 82%, 39%);
+$color-primary--3: hsl(29, 80%, 44%);
+$color-primary--2: hsl(36, 77%, 49%);
+$color-primary--1: hsl(42, 87%, 55%);
+$color-primary-1: hsl(44, 92%, 63%);
+$color-primary-2: hsl(48, 94%, 68%);
+$color-primary-3: hsl(48, 95%, 76%);
+$color-primary-4: hsl(48, 100%, 88%);
+$color-primary-5: hsl(49, 100%, 96%);
+//*blue
+$color-secondary--5: hsl(204, 96%, 27%);
+$color-secondary--4: hsl(203, 87%, 34%);
+$color-secondary--3: hsl(202, 83%, 41%);
+$color-secondary--2: hsl(201, 79%, 46%);
+$color-secondary--1: hsl(199, 84%, 55%);
+$color-secondary-1: hsl(197, 92%, 61%);
+$color-secondary-2: hsl(196, 94%, 67%);
+$color-secondary-3: hsl(195, 97%, 75%);
+$color-secondary-4: hsl(195, 100%, 85%);
+$color-secondary-5: hsl(195, 100%, 95%);
+
+//*Gray
+$color-tertiary--5: hsl(0, 0%, 13%);
+$color-tertiary--4: hsl(0, 0%, 23%);
+$color-tertiary--3: hsl(0, 0%, 32%);
+$color-tertiary--2: hsl(0, 0%, 38%);
+$color-tertiary--1: hsl(0, 0%, 49%);
+$color-tertiary-1: hsl(0, 0%, 62%);
+$color-tertiary-2: hsl(0, 0%, 69%);
+$color-tertiary-3: hsl(0, 0%, 81%);
+$color-tertiary-4: hsl(0, 0%, 88%);
+$color-tertiary-5: hsl(0, 0%, 97%);
+
+//*Supporting Colors
+//TODOs Typography
+#home-heading h2 {
+  text-transform: uppercase;
+}
+
+#video-play a {
+  color: #fff;
+}
+.text-header,
+#page-header .col {
+  padding-top: 80px;
+}
+.about-img {
+  margin-top: -50px;
+  margin-left: 120px;
+}
+
+//TODO's Font
+@font-face {
+  font-family: Freight sans;
+  src: url('../font/Freight\ Sans\ Bold.otf');
+}

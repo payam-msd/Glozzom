@@ -1,0 +1,44 @@
+//TODOs Sliders
+.carousel-item {
+  height: 100vh;
+}
+.carousel-img-1 {
+  background: url(../img/claudio-schwarz-purzlbaum-1255976-unsplash.jpg);
+  background-size: cover;
+}
+.carousel-img-2 {
+  background: url(../img/daniel-olah-1118487-unsplash.jpg);
+
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.carousel-img-3 {
+  background: url(../img/ales-nesetril-1311637-unsplash.jpg);
+
+  background-size: cover;
+}
+
+//TODOs Loaders
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url(../img/media.jpg);
+  background-position: 0 -300px;
+  color: #fff;
+  text-align: center;
+}
+
+//TODOs Widgets
+#FAQ .card-body,
+#FAQ .card-header {
+  background: #444;
+}
+
+//TODOs Buttons
+#FAQ button {
+  color: #fff;
+  text-decoration: none;
+}
